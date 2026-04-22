@@ -200,8 +200,8 @@ video {
 }
 
 .hero-card {
-  width: min(430px, 100%);
-  padding: clamp(24px, 4vw, 34px);
+  width: min(620px, 100%);
+  padding: clamp(28px, 4.4vw, 42px);
   background: rgba(5, 7, 7, 0.94);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
 }
@@ -212,7 +212,7 @@ video {
 }
 
 .hero-card h1 {
-  font-size: clamp(2.85rem, 5vw, 4.2rem);
+  font-size: clamp(2.35rem, 4vw, 3.25rem);
   line-height: 0.92;
   white-space: nowrap;
 }
