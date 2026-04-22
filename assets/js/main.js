@@ -85,8 +85,8 @@ const translations = {
     contactLead: "商务合作、素材投稿、粉丝共创与社群加入，都可以从这里开始。",
     contact1: "Bilibili 私信",
     contact1Text: "搜索 Up 主“半北山河”，通过站内私信发送合作或投稿说明。",
-    contact2: "商务邮箱",
-    contact2Text: "business@banbeishanhe.example",
+    contact2: "商务联系",
+    contact2Text: "请通过 Bilibili 私信获取商务邮箱。",
     contact3: "粉丝共创",
     contact3Text: "欢迎提交 MOC 草图、选题建议、乐高资讯线索和视频字幕协助。",
     footer: "© 2026 半北山河粉丝向官方网站。静态部署于 GitHub Pages。"
@@ -177,8 +177,8 @@ const translations = {
     contactLead: "Start here for business collaboration, material submissions, fan co-creation, and community participation.",
     contact1: "Bilibili DM",
     contact1Text: "Search for creator “半北山河” on Bilibili and send collaboration or submission details via direct message.",
-    contact2: "Business Email",
-    contact2Text: "business@banbeishanhe.example",
+    contact2: "Business Contact",
+    contact2Text: "Please request the business email through Bilibili direct messages.",
     contact3: "Fan Co-creation",
     contact3Text: "MOC sketches, topic ideas, LEGO news tips, and subtitle support are welcome.",
     footer: "© 2026 Banbei Shanhe fan-facing official website. Static deployment on GitHub Pages."

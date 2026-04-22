@@ -175,8 +175,81 @@ video {
 }
 
 .home-hero {
-  background-image: url("../../posters/main.png");
-  background-position: center top;
+  background: #050505;
+}
+
+.hero-bg-video {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.home-hero::before {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.18), transparent 34%, rgba(0, 0, 0, 0.22)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.05) 54%, #050505 98%);
+}
+
+.home-hero .hero-content {
+  padding-bottom: 11vh;
+}
+
+.hero-card {
+  width: min(430px, 100%);
+  padding: clamp(24px, 4vw, 34px);
+  background: rgba(5, 7, 7, 0.94);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
+}
+
+.hero-card .eyebrow {
+  margin-bottom: 12px;
+  color: #56d66f;
+}
+
+.hero-card h1 {
+  font-size: clamp(2.85rem, 5vw, 4.2rem);
+  line-height: 0.92;
+  white-space: nowrap;
+}
+
+.hero-card .hero-copy {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: clamp(0.95rem, 1.55vw, 1.06rem);
+  line-height: 1.65;
+}
+
+.hero-card .hero-actions {
+  margin-top: 22px;
+  gap: 18px;
+}
+
+.hero-card .button {
+  min-height: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #56d66f;
+  font-weight: 950;
+}
+
+.hero-card .button::before {
+  content: "→";
+  margin-right: 8px;
+}
+
+.hero-card .button.secondary {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.hero-card .button:hover {
+  transform: translateX(4px);
+  background: transparent;
 }
 
 .page-hero {
