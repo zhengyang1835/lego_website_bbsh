@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>半北山河 | 乐高创作者</title>
+    <meta name="description" content="半北山河乐高主题官方网站。">
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260424-background-new">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="index.html"><span class="brand-mark"><span></span><span></span><span></span><span></span></span><span data-i18n="brand">半北山河</span></a>
+        <div class="nav-links">
+          <a class="nav-link active" href="index.html" data-i18n="navHome">首页</a>
+          <a class="nav-link" href="materials.html" data-i18n="navMaterials">免费素材库</a>
+          <a class="nav-link" href="biography.html" data-i18n="navBio">个人简介</a>
+          <div class="nav-dropdown"><a class="nav-link gallery-trigger" href="gallery-videos.html" data-i18n="navGallery">影像馆</a><div class="sub-nav"><a href="gallery-photos.html" data-i18n="navPhotos">精选照片</a><a href="gallery-videos.html" data-i18n="navVideos">视频作品</a></div></div>
+          <a class="nav-link" href="store.html" data-i18n="navStore">官方商店</a>
+          <a class="nav-link" href="qa.html" data-i18n="navQA">答疑解惑</a>
+          <a class="nav-link" href="contact.html" data-i18n="navContact">联系我们</a>
+        </div>
+        <button class="lang-toggle" type="button" data-lang-toggle data-i18n="langButton">EN</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero home-hero">
+        <video class="hero-bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+          <source src="assets/video/background_new.mp4?v=20260424-background-new" type="video/mp4">
+        </video>
+        <div class="hero-content">
+          <div class="hero-card">
+            <h1 data-i18n="heroTitle">半北山河</h1>
+            <p class="hero-copy" data-i18n="heroCopy">自强不息，创新不止，以积木绘就山河，用视频讲好故事。</p>
+            <div class="hero-actions">
+              <a class="button" href="gallery-videos.html" data-i18n="heroPrimary">进入影像馆</a>
+              <a class="button secondary" href="contact.html" data-i18n="heroSecondary">加入我们</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="share">
+        <div class="section-inner">
+          <h2 class="section-title" data-i18n="shareTitle">分享点什么？</h2>
+          <p class="section-lead" data-i18n="shareLead">留下你的搭建想法、投稿线索或同好照片。当前静态站会把留言保存在你的浏览器本地，后续可接入数据库。</p>
+          <div class="message-board">
+            <form class="card form-card" data-message-form>
+              <div class="field">
+                <label for="name" data-i18n="nickname">昵称</label>
+                <input id="name" name="name" type="text" maxlength="40" required>
+              </div>
+              <div class="field">
+                <label for="message" data-i18n="message">留言内容</label>
+                <textarea id="message" name="message" maxlength="500" required></textarea>
+              </div>
+              <div class="field">
+                <label for="share-file" data-i18n="upload">上传图片或视频</label>
+                <input id="share-file" type="file" accept="image/*,video/*" multiple>
+              </div>
+              <button class="button" type="submit" data-i18n="submitShare">发布留言</button>
+            </form>
+            <section class="card form-card">
+              <h3 data-i18n="latestMessages">最新留言</h3>
+              <div class="post-list" data-post-list></div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="works">
+        <div class="section-inner">
+          <h2 class="section-title" data-i18n="carouselTitle">我们的作品</h2>
+          <p class="section-lead" data-i18n="carouselLead">精品系列邀你来品鉴精品系列邀你来品鉴</p>
+          <div class="carousel-wrap">
+            <div class="story-carousel" data-carousel>
+              <a class="story-card thin-hover" href="work-china.html"><img src="assets/picture/用乐高讲好中国故事.jpg" alt=""><div class="story-title" data-i18n="story1">用乐高讲好中国故事</div></a>
+              <a class="story-card thin-hover" href="work-poet.html"><img src="assets/picture/黑袍诗人的黑袍诗.jpg" alt=""><div class="story-title" data-i18n="story2">黑袍诗人的黑袍诗</div></a>
+              <a class="story-card thin-hover" href="work-ninjago.html"><img src="assets/picture/幻影忍者评测.jpg" alt=""><div class="story-title" data-i18n="story3">幻影忍者评测</div></a>
+              <a class="story-card thin-hover" href="work-knowledge.html"><img src="assets/picture/你不知道的乐高知识.jpg" alt=""><div class="story-title" data-i18n="story4">你不知道的乐高知识</div></a>
+            </div>
+            <div class="carousel-controls">
+              <button class="icon-btn" type="button" aria-label="向左滚动" data-carousel-dir="-1">‹</button>
+              <button class="icon-btn" type="button" aria-label="向右滚动" data-carousel-dir="1">›</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="eras">
+        <div class="section-inner">
+          <h2 class="section-title" data-i18n="archiveTitle">众时代</h2>
+          <p class="section-lead" data-i18n="archiveLead">五个阶段像档案一样展开。点击任意篇章，查看它在半北山河内容宇宙中的位置。</p>
+          <div class="archive-grid">
+            <button class="archive-card" type="button" data-era="eraDoorText" data-era-title="eraDoor"><img src="assets/picture/门内.jpg" alt=""><h3 data-i18n="eraDoor">门内</h3></button>
+            <button class="archive-card" type="button" data-era="eraBloomText" data-era-title="eraBloom"><img src="assets/picture/花繁.jpg" alt=""><h3 data-i18n="eraBloom">花繁</h3></button>
+            <button class="archive-card" type="button" data-era="eraStarsText" data-era-title="eraStars"><img src="assets/picture/星外.jpg" alt=""><h3 data-i18n="eraStars">星外</h3></button>
+            <button class="archive-card" type="button" data-era="eraRenaissanceText" data-era-title="eraRenaissance"><img src="assets/picture/文艺复兴.jpg" alt=""><h3 data-i18n="eraRenaissance">文艺复兴</h3></button>
+            <button class="archive-card" type="button" data-era="eraNightText" data-era-title="eraNight"><img src="assets/picture/永夜.jpg" alt=""><h3 data-i18n="eraNight">永夜</h3></button>
+          </div>
+          <div class="archive-detail" data-archive-detail data-i18n="eraDefault">选择一个时代，查看它的主题说明。</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span data-i18n="footer">© 2026 半北山河粉丝向官方网站。静态部署于 GitHub Pages。</span></footer>
+    <script src="assets/js/main.js?v=20260424-background-new"></script>
+  </body>
+</html>
