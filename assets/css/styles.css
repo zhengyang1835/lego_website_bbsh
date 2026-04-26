@@ -796,6 +796,41 @@ input[type="file"] {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.contact-details {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-line {
+  margin: 0;
+}
+
+.contact-label,
+.contact-value {
+  color: #fff;
+}
+
+.contact-label {
+  font-weight: 800;
+}
+
+.contact-link {
+  color: var(--gold);
+  font-weight: 800;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.contact-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.contact-note {
+  color: #ffe6a0;
+  font-weight: 700;
+}
+
 .site-footer {
   padding: 42px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
