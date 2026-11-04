@@ -4,6 +4,7 @@ const translations = {
     navHome: "首页",
     navMaterials: "免费素材库",
     navBio: "个人简介",
+    navWorks: "我们的作品",
     navGallery: "影像馆",
     navPhotos: "精选照片",
     navVideos: "视频作品",
@@ -16,15 +17,13 @@ const translations = {
     heroPrimary: "进入影像馆",
     heroSecondary: "加入我们",
     shareTitle: "分享点什么？",
-    shareLead: "留下你的搭建想法、投稿线索或同好照片。当前静态站会把留言保存在你的浏览器本地，后续可接入数据库。",
-    nickname: "昵称",
-    message: "留言内容",
-    upload: "上传图片或视频",
-    submitShare: "发布留言",
-    latestMessages: "最新留言",
-    noMessages: "还没有留言，来坐第一排。",
+    shareLead: "留下你的搭建想法、投稿线索，或与其他同好聊聊。留言由 GitHub Discussions 提供支持。",
+    discussionTitle: "同好留言席",
+    discussionIdentity: "登录 GitHub 后即可发布留言；你的 GitHub 用户名与头像会显示在留言旁。",
     carouselTitle: "我们的作品",
     carouselLead: "精品系列邀你来品鉴",
+    worksIndexLead: "四个创作方向，记录半北山河如何用积木、影像与知识展开自己的乐高世界。",
+    viewWork: "查看作品",
     story1: "用乐高讲好中国故事",
     story2: "黑袍诗人的黑袍诗",
     story3: "幻影忍者评测",
@@ -35,8 +34,16 @@ const translations = {
     work2Body: "黑袍诗人的黑袍诗偏向氛围、叙事和影像实验。它不只展示一件模型，也尝试让光影、旁白与场景共同形成一首关于颗粒的短诗。",
     work3Lead: "围绕幻影忍者系列的套装评测、角色整理、机甲结构和收藏建议。",
     work3Body: "这个栏目适合系列粉丝和新玩家快速进入主题。内容会关注可玩性、展示性、零件价值、角色配置，以及套装在幻影忍者世界观中的位置。",
-    work4Lead: "轻量但有用的乐高知识栏目，整理玩家容易忽略的设计细节和收藏经验。",
-    work4Body: "从零件历史、拼搭技巧、价格判断到系列冷知识，这个栏目像一组随手可查的乐高笔记，帮助观众更懂模型，也更会欣赏模型。",
+    work4Lead: "轻量但有用的乐高知识博客，分享经典乐高套装、设计细节和收藏经验。",
+    work4Body: "从玩具套装历史、拼搭技巧到系列冷知识，这个栏目像一组随手可查的乐高笔记，给观众更多的玩乐知识。",
+    knowledgeBlogTitle: "乐高知识博客",
+    knowledgeBlogLabel: "博客说明",
+    knowledgeBlogStatus: "持续更新",
+    knowledgePostTitle: "经典套装、设计与收藏",
+    knowledgePostText: "这里将持续更新乐高套装故事、拼搭观察、设计细节与收藏笔记。",
+    blogReadArticle: "阅读文章并参与讨论",
+    blogDiscussionTitle: "文章讨论",
+    blogDiscussionText: "登录 GitHub 后即可评论。",
     archiveTitle: "众时代",
     archiveLead: "五个阶段像档案一样展开。点击任意篇章，查看它在半北山河内容宇宙中的位置。",
     eraDefault: "选择一个时代，查看它的主题说明。",
@@ -66,6 +73,10 @@ const translations = {
     galleryTitle: "影像馆",
     galleryLead: "照片展示主要项目、视频和 MOC 搭建；视频区嵌入 Bilibili 播放器，便于集中观看。",
     photosTitle: "照片展区",
+    photoGalleryLead: "从经典套装到摄影作品与怀旧海报，按主题浏览半北山河的乐高影像收藏。",
+    classicSetsTitle: "经典套装",
+    photographyTitle: "摄影作品",
+    nostalgicPostersTitle: "怀旧海报",
     videosTitle: "Bilibili 视频",
     video1: "半北山河精选视频 01",
     video2: "半北山河精选视频 02",
@@ -91,18 +102,27 @@ const translations = {
     contactTitle: "联系我们 / 加入我们",
     contactLead: "商务合作、素材投稿、粉丝共创与社群加入，都可以从这里开始。",
     contact1: "Bilibili 私信",
-    contact1Text: "搜索 Up 主“半北山河”，通过站内私信发送合作或投稿说明。",
+    contact1Text: "访问“半北山河”的 Bilibili 主页，通过站内私信发送合作或投稿说明。",
+    goBilibili: "前往 B 站",
     contact2: "商务联系",
-    contact2Text: "请通过 Bilibili 私信获取商务邮箱。",
-    contact3: "粉丝共创",
-    contact3Text: "欢迎提交 MOC 草图、选题建议、乐高资讯线索和视频字幕协助。",
-    footer: "© 2026 半北山河粉丝向官方网站。静态部署于 GitHub Pages。"
+    contact2Text: "官方及商务合作请邮箱联系 1293054197@qq.com。",
+    sendEmail: "发送邮件",
+    contact3: "粉丝共创与答疑",
+    contact3Text: "欢迎提交 MOC 草图、选题建议、乐高资讯线索和视频字幕协助，也可以在这里提出问题或发送留言。",
+    formName: "姓名",
+    formEmail: "邮箱",
+    formSubject: "主题",
+    formMessage: "留言内容",
+    formSubmit: "发送留言",
+    formEndpointMissing: "请先在 Formspree 创建表单并配置表单地址。",
+    footer: "© 2026 半北山河官方网站"
   },
   en: {
     brand: "Banbei Shanhe",
     navHome: "Home",
     navMaterials: "Free Library",
     navBio: "Biography",
+    navWorks: "Our Works",
     navGallery: "Gallery",
     navPhotos: "Photos",
     navVideos: "Videos",
@@ -115,15 +135,13 @@ const translations = {
     heroPrimary: "Enter Gallery",
     heroSecondary: "Join Us",
     shareTitle: "Share something?",
-    shareLead: "Leave build ideas, tips, or fan photos. This static version stores messages locally in your browser and can later be connected to a database.",
-    nickname: "Nickname",
-    message: "Message",
-    upload: "Upload images or videos",
-    submitShare: "Post Message",
-    latestMessages: "Latest Messages",
-    noMessages: "No messages yet. Take the front row.",
+    shareLead: "Share build ideas, story tips, or chat with fellow fans. Comments are powered by GitHub Discussions.",
+    discussionTitle: "Community discussion",
+    discussionIdentity: "Sign in with GitHub to post. Your GitHub username and avatar will appear with your comment.",
     carouselTitle: "Our Works",
     carouselLead: "A curated series invites you to appreciate a curated series.",
+    worksIndexLead: "Four creative directions exploring how Banbei Shanhe builds a LEGO world through bricks, film, and knowledge.",
+    viewWork: "View work",
     story1: "Tell Chinese stories with LEGO",
     story2: "The black-robed poet's poems",
     story3: "NINJAGO reviews",
@@ -134,8 +152,16 @@ const translations = {
     work2Body: "The black-robed poet series leans into atmosphere, narrative, and visual experimentation. It presents not only a model, but a short poem shaped by light, voice, and scene.",
     work3Lead: "Reviews, character notes, mech structures, and collecting advice around the NINJAGO theme.",
     work3Body: "This column helps fans and new viewers enter the theme quickly. It focuses on play value, display value, part selection, character lineups, and each set's place in the NINJAGO world.",
-    work4Lead: "A light but useful LEGO knowledge column covering details and collecting experience that players may overlook.",
-    work4Body: "From part history and building tips to price judgment and theme trivia, this column works like a set of handy LEGO notes that helps viewers understand and appreciate models better.",
+    work4Lead: "A light but useful LEGO knowledge blog sharing classic sets, design details, and collecting experience.",
+    work4Body: "From toy-set history and building techniques to theme trivia, this column is a collection of handy LEGO notes offering readers more knowledge for play.",
+    knowledgeBlogTitle: "LEGO Knowledge Blog",
+    knowledgeBlogLabel: "About the blog",
+    knowledgeBlogStatus: "Ongoing",
+    knowledgePostTitle: "Classic Sets, Design & Collecting",
+    knowledgePostText: "New stories about LEGO sets, building observations, design details, and collecting notes will be published here.",
+    blogReadArticle: "Read and join the discussion",
+    blogDiscussionTitle: "Article discussion",
+    blogDiscussionText: "Sign in with GitHub to comment.",
     archiveTitle: "Eras",
     archiveLead: "Five chapters open like an archive. Click any era to see where it sits in Banbei Shanhe's creative universe.",
     eraDefault: "Choose an era to view its theme.",
@@ -165,6 +191,10 @@ const translations = {
     galleryTitle: "Gallery",
     galleryLead: "The photo area showcases major projects, videos, and MOC builds. The video area embeds Bilibili players for concentrated viewing.",
     photosTitle: "Photo Gallery",
+    photoGalleryLead: "Browse Banbei Shanhe's LEGO image collection by theme, from classic sets to photography and nostalgic posters.",
+    classicSetsTitle: "Classic Sets",
+    photographyTitle: "Photography",
+    nostalgicPostersTitle: "Nostalgic Posters",
     videosTitle: "Bilibili Videos",
     video1: "Banbei Shanhe Featured Video 01",
     video2: "Banbei Shanhe Featured Video 02",
@@ -190,17 +220,39 @@ const translations = {
     contactTitle: "Contact / Join Us",
     contactLead: "Start here for business collaboration, material submissions, fan co-creation, and community participation.",
     contact1: "Bilibili DM",
-    contact1Text: "Search for creator “半北山河” on Bilibili and send collaboration or submission details via direct message.",
+    contact1Text: "Visit Banbei Shanhe's Bilibili profile and send collaboration or submission details via direct message.",
+    goBilibili: "Visit Bilibili",
     contact2: "Business Contact",
-    contact2Text: "Please request the business email through Bilibili direct messages.",
-    contact3: "Fan Co-creation",
-    contact3Text: "MOC sketches, topic ideas, LEGO news tips, and subtitle support are welcome.",
-    footer: "© 2026 Banbei Shanhe fan-facing official website. Static deployment on GitHub Pages."
+    contact2Text: "For official and business collaboration, email 1293054197@qq.com.",
+    sendEmail: "Send email",
+    contact3: "Fan Co-creation & Q&A",
+    contact3Text: "MOC sketches, topic ideas, LEGO news tips, and subtitle support are welcome. You can also ask a question or leave a message here.",
+    formName: "Name",
+    formEmail: "Email",
+    formSubject: "Subject",
+    formMessage: "Message",
+    formSubmit: "Send message",
+    formEndpointMissing: "Create a Formspree form and configure its endpoint before sending.",
+    footer: "© 2026 Banbei Shanhe official website"
   }
 };
 
 function getLang() {
   return localStorage.getItem("bbsh-lang") || "zh";
+}
+
+function syncGiscusLanguage(lang) {
+  const sendConfig = () => {
+    const frame = document.querySelector("iframe.giscus-frame");
+    if (!frame) return false;
+    frame.contentWindow.postMessage(
+      { giscus: { setConfig: { lang: lang === "zh" ? "zh-CN" : "en" } } },
+      "https://giscus.app"
+    );
+    return true;
+  };
+
+  if (!sendConfig()) window.setTimeout(sendConfig, 1200);
 }
 
 function applyLang(lang) {
@@ -218,7 +270,7 @@ function applyLang(lang) {
     const key = node.dataset.i18nValue;
     if (translations[lang][key]) node.value = translations[lang][key];
   });
-  renderPosts();
+  syncGiscusLanguage(lang);
   renderQuestions();
 }
 
@@ -242,48 +294,6 @@ function storageRead(key) {
 
 function storageWrite(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
-}
-
-function renderPosts() {
-  const list = document.querySelector("[data-post-list]");
-  if (!list) return;
-  const lang = getLang();
-  const posts = storageRead("bbsh-posts");
-  list.innerHTML = "";
-  if (!posts.length) {
-    list.innerHTML = `<div class="post-item">${translations[lang].noMessages}</div>`;
-    return;
-  }
-  posts.slice().reverse().forEach((post) => {
-    const item = document.createElement("article");
-    item.className = "post-item";
-    item.innerHTML = `
-      <div class="post-meta">${post.name} · ${post.time}</div>
-      <div>${post.text}</div>
-      ${post.files.length ? `<div class="file-pills">${post.files.map((file) => `<span class="file-pill">${file}</span>`).join("")}</div>` : ""}
-    `;
-    list.appendChild(item);
-  });
-}
-
-function bindMessageBoard() {
-  const form = document.querySelector("[data-message-form]");
-  if (!form) return;
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const data = new FormData(form);
-    const files = [...form.querySelector("input[type='file']").files].map((file) => file.name);
-    const posts = storageRead("bbsh-posts");
-    posts.push({
-      name: data.get("name") || "匿名同好",
-      text: data.get("message") || "",
-      files,
-      time: new Date().toLocaleString()
-    });
-    storageWrite("bbsh-posts", posts);
-    form.reset();
-    renderPosts();
-  });
 }
 
 function bindCarousel() {
@@ -381,12 +391,23 @@ function bindQa() {
   });
 }
 
+function bindContactForm() {
+  const form = document.querySelector("[data-contact-form]");
+  if (!form) return;
+  form.addEventListener("submit", (event) => {
+    if (!form.action.includes("YOUR_FORM_ID")) return;
+    event.preventDefault();
+    const status = document.querySelector("[data-contact-status]");
+    if (status) status.textContent = translations[getLang()].formEndpointMissing;
+  });
+}
+
 function init() {
   bindLanguage();
-  bindMessageBoard();
   bindCarousel();
   bindArchive();
   bindQa();
+  bindContactForm();
   applyLang(getLang());
 }
 

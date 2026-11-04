@@ -4,23 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>联系我们 | 半北山河</title>
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260424-background-new">
+    <link rel="stylesheet" href="assets/css/styles.css?v=20261104-hero-title">
   </head>
   <body>
-    <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html"><span class="brand-mark"><span></span><span></span><span></span><span></span></span><span data-i18n="brand">半北山河</span></a><div class="nav-links"><a class="nav-link" href="index.html" data-i18n="navHome">首页</a><a class="nav-link" href="materials.html" data-i18n="navMaterials">免费素材库</a><a class="nav-link" href="biography.html" data-i18n="navBio">个人简介</a><div class="nav-dropdown"><a class="nav-link gallery-trigger" href="gallery-videos.html" data-i18n="navGallery">影像馆</a><div class="sub-nav"><a href="gallery-photos.html" data-i18n="navPhotos">精选照片</a><a href="gallery-videos.html" data-i18n="navVideos">视频作品</a></div></div><a class="nav-link" href="store.html" data-i18n="navStore">官方商店</a><a class="nav-link" href="qa.html" data-i18n="navQA">答疑解惑</a><a class="nav-link active" href="contact.html" data-i18n="navContact">联系我们</a></div><button class="lang-toggle" type="button" data-lang-toggle data-i18n="langButton">EN</button></nav></header>
+    <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html"><span class="brand-mark"><span></span><span></span><span></span><span></span></span><span data-i18n="brand">半北山河</span></a><div class="nav-links"><a class="nav-link" href="index.html" data-i18n="navHome">首页</a><a class="nav-link" href="biography.html" data-i18n="navBio">个人简介</a><a class="nav-link" href="works.html" data-i18n="navWorks">我们的作品</a><div class="nav-dropdown"><a class="nav-link gallery-trigger" href="gallery-videos.html" data-i18n="navGallery">影像馆</a><div class="sub-nav"><a href="gallery-photos.html" data-i18n="navPhotos">精选照片</a><a href="gallery-videos.html" data-i18n="navVideos">视频作品</a></div></div><a class="nav-link" href="store.html" data-i18n="navStore">官方商店</a><a class="nav-link active" href="contact.html" data-i18n="navContact">联系我们</a></div><button class="lang-toggle" type="button" data-lang-toggle data-i18n="langButton">EN</button></nav></header>
     <main>
-      <section class="hero page-hero" style="--page-bg: linear-gradient(90deg, rgba(0,0,0,.78), rgba(0,0,0,.2)), url('../../posters/b06acd7ca226a06171f044855d9b3cfc.jpg')">
+      <section class="hero page-hero contact-hero" style="--page-bg: linear-gradient(90deg, rgba(0,0,0,.78), rgba(0,0,0,.2)), url('../../posters/IMG_5511.JPG'); background-position: center center">
         <div class="hero-content"><p class="eyebrow">CONTACT</p><h1 data-i18n="contactTitle">联系我们 / 加入我们</h1><p class="hero-copy" data-i18n="contactLead">商务合作、素材投稿、粉丝共创与社群加入，都可以从这里开始。</p></div>
       </section>
       <section class="section">
         <div class="section-inner contact-grid">
-          <article class="card form-card"><h3 data-i18n="contact1">Bilibili 私信</h3><p class="text-block" data-i18n="contact1Text">搜索 Up 主“半北山河”，通过站内私信发送合作或投稿说明。</p></article>
-          <article class="card form-card"><h3 data-i18n="contact2">商务联系</h3><p class="text-block" data-i18n="contact2Text">请通过 Bilibili 私信获取商务邮箱。</p></article>
-          <article class="card form-card"><h3 data-i18n="contact3">粉丝共创</h3><p class="text-block" data-i18n="contact3Text">欢迎提交 MOC 草图、选题建议、乐高资讯线索和视频字幕协助。</p></article>
+          <a class="card form-card contact-row contact-link-row" href="https://space.bilibili.com/386464666?spm_id_from=333.337.0.0" target="_blank" rel="noreferrer">
+            <div><p class="eyebrow">BILIBILI</p><h2 data-i18n="contact1">Bilibili 私信</h2><p class="text-block" data-i18n="contact1Text">访问“半北山河”的 Bilibili 主页，通过站内私信发送合作或投稿说明。</p></div><span class="button secondary" data-i18n="goBilibili">前往 B 站</span>
+          </a>
+          <article class="card form-card contact-row">
+            <div><p class="eyebrow">BUSINESS</p><h2 data-i18n="contact2">商务联系</h2><p class="text-block" data-i18n="contact2Text">官方及商务合作请邮箱联系 1293054197@qq.com。</p></div><a class="button secondary" href="mailto:1293054197@qq.com" data-i18n="sendEmail">发送邮件</a>
+          </article>
+          <article class="card form-card contact-form-card">
+            <div class="contact-form-intro"><p class="eyebrow">MESSAGE</p><h2 data-i18n="contact3">粉丝共创与答疑</h2><p class="text-block" data-i18n="contact3Text">欢迎提交 MOC 草图、选题建议、乐高资讯线索和视频字幕协助，也可以在这里提出问题或发送留言。</p></div>
+            <form class="contact-form" action="https://formspree.io/f/xdeebkpd" method="POST" accept-charset="UTF-8" data-contact-form>
+              <div class="contact-form-grid">
+                <div class="field"><label for="contact-name" data-i18n="formName">姓名</label><input id="contact-name" name="name" type="text" autocomplete="name" required></div>
+                <div class="field"><label for="contact-email" data-i18n="formEmail">邮箱</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div>
+              </div>
+              <div class="field"><label for="contact-subject" data-i18n="formSubject">主题</label><input id="contact-subject" name="subject" type="text" maxlength="120" required></div>
+              <div class="field"><label for="contact-message" data-i18n="formMessage">留言内容</label><textarea id="contact-message" name="message" maxlength="2000" required></textarea></div>
+              <input class="form-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <div class="contact-form-actions"><button class="button" type="submit" data-i18n="formSubmit">发送留言</button><p class="form-status" data-contact-status role="status" aria-live="polite"></p></div>
+            </form>
+          </article>
         </div>
       </section>
     </main>
-    <footer class="site-footer"><span data-i18n="footer">© 2026 半北山河粉丝向官方网站。静态部署于 GitHub Pages。</span></footer>
-    <script src="assets/js/main.js?v=20260424-background-new"></script>
+    <footer class="site-footer"><span data-i18n="footer">© 2026 半北山河官方网站</span></footer>
+    <script src="assets/js/main.js?v=20261104-contact-live"></script>
   </body>
 </html>
