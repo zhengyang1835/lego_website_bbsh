@@ -1,0 +1,1429 @@
+{
+  "assets/picture/knowledge-blog/01-ninjago-2011-brochure.JPG": {
+    "width": 1800,
+    "height": 1350,
+    "original_bytes": 863680,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/a07c36007791-480.webp",
+        "bytes": 53668
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/a07c36007791-960.webp",
+        "bytes": 168554
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/a07c36007791-1600.webp",
+        "bytes": 380828
+      },
+      {
+        "width": 1800,
+        "path": "assets/optimized/a07c36007791-1800.webp",
+        "bytes": 482622
+      }
+    ]
+  },
+  "posters/white-ninja-header.png": {
+    "width": 2172,
+    "height": 724,
+    "original_bytes": 1887067,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/cb3a4f534f19-480.webp",
+        "bytes": 9638
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/cb3a4f534f19-960.webp",
+        "bytes": 27330
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/cb3a4f534f19-1600.webp",
+        "bytes": 58488
+      },
+      {
+        "width": 2172,
+        "path": "assets/optimized/cb3a4f534f19-2172.webp",
+        "bytes": 90786
+      }
+    ]
+  },
+  "assets/picture/用乐高讲好中国故事.jpg": {
+    "width": 1264,
+    "height": 1264,
+    "original_bytes": 526859,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/67509287fd48-480.webp",
+        "bytes": 22742
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/67509287fd48-960.webp",
+        "bytes": 48400
+      },
+      {
+        "width": 1264,
+        "path": "assets/optimized/67509287fd48-1264.webp",
+        "bytes": 65940
+      }
+    ]
+  },
+  "assets/picture/minifigures/icon.jpg": {
+    "width": 5084,
+    "height": 5084,
+    "original_bytes": 8928273,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/fd20ba0ed4f7-480.webp",
+        "bytes": 55668
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/fd20ba0ed4f7-960.webp",
+        "bytes": 144140
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/fd20ba0ed4f7-1600.webp",
+        "bytes": 254796
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/fd20ba0ed4f7-2400.webp",
+        "bytes": 403154
+      }
+    ]
+  },
+  "assets/picture/幻影忍者评测.jpg": {
+    "width": 1264,
+    "height": 1264,
+    "original_bytes": 250793,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/cb4508776981-480.webp",
+        "bytes": 8980
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/cb4508776981-960.webp",
+        "bytes": 18908
+      },
+      {
+        "width": 1264,
+        "path": "assets/optimized/cb4508776981-1264.webp",
+        "bytes": 25366
+      }
+    ]
+  },
+  "assets/picture/你不知道的乐高知识.jpg": {
+    "width": 1199,
+    "height": 1199,
+    "original_bytes": 211182,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/8afd0fb6942c-480.webp",
+        "bytes": 21082
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/8afd0fb6942c-960.webp",
+        "bytes": 44222
+      },
+      {
+        "width": 1199,
+        "path": "assets/optimized/8afd0fb6942c-1199.webp",
+        "bytes": 57028
+      }
+    ]
+  },
+  "assets/picture/门内.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "original_bytes": 339206,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/4a5648de69b6-480.webp",
+        "bytes": 30320
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/4a5648de69b6-960.webp",
+        "bytes": 63742
+      },
+      {
+        "width": 1280,
+        "path": "assets/optimized/4a5648de69b6-1280.webp",
+        "bytes": 85192
+      }
+    ]
+  },
+  "assets/picture/花繁.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "original_bytes": 851979,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/852154e6e1ed-480.webp",
+        "bytes": 52322
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/852154e6e1ed-960.webp",
+        "bytes": 122414
+      },
+      {
+        "width": 1280,
+        "path": "assets/optimized/852154e6e1ed-1280.webp",
+        "bytes": 160764
+      }
+    ]
+  },
+  "assets/picture/星外.jpg": {
+    "width": 2860,
+    "height": 2860,
+    "original_bytes": 3755212,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/2cedb06ab1bf-480.webp",
+        "bytes": 56892
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/2cedb06ab1bf-960.webp",
+        "bytes": 152230
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/2cedb06ab1bf-1600.webp",
+        "bytes": 273524
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/2cedb06ab1bf-2400.webp",
+        "bytes": 414216
+      }
+    ]
+  },
+  "assets/picture/文艺复兴.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "original_bytes": 463939,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/87511a9a9bb5-480.webp",
+        "bytes": 18554
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/87511a9a9bb5-960.webp",
+        "bytes": 39142
+      },
+      {
+        "width": 1024,
+        "path": "assets/optimized/87511a9a9bb5-1024.webp",
+        "bytes": 41644
+      }
+    ]
+  },
+  "assets/picture/永夜.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "original_bytes": 527880,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/5baec226e7ec-480.webp",
+        "bytes": 19646
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/5baec226e7ec-960.webp",
+        "bytes": 48990
+      },
+      {
+        "width": 1280,
+        "path": "assets/optimized/5baec226e7ec-1280.webp",
+        "bytes": 70270
+      }
+    ]
+  },
+  "posters/IMG_5511.JPG": {
+    "width": 1024,
+    "height": 768,
+    "original_bytes": 380000,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/8dc46d561629-480.webp",
+        "bytes": 54594
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/8dc46d561629-960.webp",
+        "bytes": 145538
+      },
+      {
+        "width": 1024,
+        "path": "assets/optimized/8dc46d561629-1024.webp",
+        "bytes": 160822
+      }
+    ]
+  },
+  "posters/612825cdf61dd9d7c87678b556f0dbf2.jpg": {
+    "width": 1200,
+    "height": 1118,
+    "original_bytes": 213961,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/9ca5d9bc9cf3-480.webp",
+        "bytes": 46950
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/9ca5d9bc9cf3-960.webp",
+        "bytes": 122680
+      },
+      {
+        "width": 1200,
+        "path": "assets/optimized/9ca5d9bc9cf3-1200.webp",
+        "bytes": 163646
+      }
+    ]
+  },
+  "posters/feb0b81567c3e7b390ef39860866e917.jpg": {
+    "width": 800,
+    "height": 600,
+    "original_bytes": 209162,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/36f3318b3677-480.webp",
+        "bytes": 42882
+      },
+      {
+        "width": 800,
+        "path": "assets/optimized/36f3318b3677-800.webp",
+        "bytes": 92142
+      }
+    ]
+  },
+  "posters/e93770c95236aa9a05359f2e2083f7ed.jpg": {
+    "width": 690,
+    "height": 509,
+    "original_bytes": 104078,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/5c2c0ec1111e-480.webp",
+        "bytes": 53314
+      },
+      {
+        "width": 690,
+        "path": "assets/optimized/5c2c0ec1111e-690.webp",
+        "bytes": 110350
+      }
+    ]
+  },
+  "posters/2adabb8f650f921990900ed7fabc677e.jpg": {
+    "width": 960,
+    "height": 680,
+    "original_bytes": 163596,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/2716d4fb11e4-480.webp",
+        "bytes": 58550
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/2716d4fb11e4-960.webp",
+        "bytes": 150624
+      }
+    ]
+  },
+  "assets/picture/knowledge-blog/02-ninjago-catalogue.JPG": {
+    "width": 1800,
+    "height": 1350,
+    "original_bytes": 729798,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/d9c906e49eab-480.webp",
+        "bytes": 40918
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/d9c906e49eab-960.webp",
+        "bytes": 120138
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/d9c906e49eab-1600.webp",
+        "bytes": 292198
+      },
+      {
+        "width": 1800,
+        "path": "assets/optimized/d9c906e49eab-1800.webp",
+        "bytes": 367308
+      }
+    ]
+  },
+  "assets/picture/knowledge-blog/03-ninjago-characters.JPG": {
+    "width": 1800,
+    "height": 1350,
+    "original_bytes": 809746,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/6501001926bd-480.webp",
+        "bytes": 58910
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/6501001926bd-960.webp",
+        "bytes": 170398
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/6501001926bd-1600.webp",
+        "bytes": 355446
+      },
+      {
+        "width": 1800,
+        "path": "assets/optimized/6501001926bd-1800.webp",
+        "bytes": 435220
+      }
+    ]
+  },
+  "assets/picture/knowledge-blog/04-ninjago-digital-play.JPG": {
+    "width": 1800,
+    "height": 1350,
+    "original_bytes": 1081462,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/85acd1b5d0eb-480.webp",
+        "bytes": 66584
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/85acd1b5d0eb-960.webp",
+        "bytes": 237056
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/85acd1b5d0eb-1600.webp",
+        "bytes": 572774
+      },
+      {
+        "width": 1800,
+        "path": "assets/optimized/85acd1b5d0eb-1800.webp",
+        "bytes": 723550
+      }
+    ]
+  },
+  "assets/picture/knowledge-blog/05-ninjago-spinner-brochure.JPG": {
+    "width": 1800,
+    "height": 1350,
+    "original_bytes": 948924,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/4a92b5a925a4-480.webp",
+        "bytes": 57064
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/4a92b5a925a4-960.webp",
+        "bytes": 190038
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/4a92b5a925a4-1600.webp",
+        "bytes": 470504
+      },
+      {
+        "width": 1800,
+        "path": "assets/optimized/4a92b5a925a4-1800.webp",
+        "bytes": 594970
+      }
+    ]
+  },
+  "assets/picture/biography/bbsh-identity.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "original_bytes": 1368839,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/d71dcc420638-480.webp",
+        "bytes": 24944
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/d71dcc420638-960.webp",
+        "bytes": 53492
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/d71dcc420638-1600.webp",
+        "bytes": 93088
+      },
+      {
+        "width": 2000,
+        "path": "assets/optimized/d71dcc420638-2000.webp",
+        "bytes": 112646
+      }
+    ]
+  },
+  "assets/picture/biography/reading.jpg": {
+    "width": 2880,
+    "height": 1620,
+    "original_bytes": 2915490,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/1ae3f954e9c7-480.webp",
+        "bytes": 7832
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/1ae3f954e9c7-960.webp",
+        "bytes": 53884
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/1ae3f954e9c7-1600.webp",
+        "bytes": 184612
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/1ae3f954e9c7-2400.webp",
+        "bytes": 372488
+      }
+    ]
+  },
+  "assets/picture/biography/recording.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "original_bytes": 1192213,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/7ba9bc199f29-480.webp",
+        "bytes": 22048
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/7ba9bc199f29-960.webp",
+        "bytes": 68022
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/7ba9bc199f29-1600.webp",
+        "bytes": 163516
+      },
+      {
+        "width": 1920,
+        "path": "assets/optimized/7ba9bc199f29-1920.webp",
+        "bytes": 224504
+      }
+    ]
+  },
+  "posters/个人简介.png": {
+    "width": 1306,
+    "height": 734,
+    "original_bytes": 1652689,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/562e5eadf102-480.webp",
+        "bytes": 32776
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/562e5eadf102-960.webp",
+        "bytes": 84348
+      },
+      {
+        "width": 1306,
+        "path": "assets/optimized/562e5eadf102-1306.webp",
+        "bytes": 120840
+      }
+    ]
+  },
+  "assets/picture/黑袍诗人的黑袍诗.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "original_bytes": 909288,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/78de40d35dde-480.webp",
+        "bytes": 48040
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/78de40d35dde-960.webp",
+        "bytes": 143262
+      },
+      {
+        "width": 1280,
+        "path": "assets/optimized/78de40d35dde-1280.webp",
+        "bytes": 212154
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1iHBeBSEhy.jpg": {
+    "width": 2560,
+    "height": 1439,
+    "original_bytes": 755177,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/93620b93a5af-480.webp",
+        "bytes": 31824
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/93620b93a5af-960.webp",
+        "bytes": 76338
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/93620b93a5af-1600.webp",
+        "bytes": 137922
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/93620b93a5af-2400.webp",
+        "bytes": 213254
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1WFLQzuES7.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 419069,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/dc348c5f8b4f-480.webp",
+        "bytes": 14056
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/dc348c5f8b4f-960.webp",
+        "bytes": 31130
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/dc348c5f8b4f-1600.webp",
+        "bytes": 54016
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/dc348c5f8b4f-2400.webp",
+        "bytes": 87690
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1VVax6GEJh.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 745935,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/8d188d122cf3-480.webp",
+        "bytes": 30476
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/8d188d122cf3-960.webp",
+        "bytes": 81252
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/8d188d122cf3-1600.webp",
+        "bytes": 151348
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/8d188d122cf3-2400.webp",
+        "bytes": 229738
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1LhQFBXEJi.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 428728,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/5085f656e665-480.webp",
+        "bytes": 18112
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/5085f656e665-960.webp",
+        "bytes": 39184
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/5085f656e665-1600.webp",
+        "bytes": 68506
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/5085f656e665-2400.webp",
+        "bytes": 108284
+      }
+    ]
+  },
+  "assets/picture/gallery/header.png": {
+    "width": 2879,
+    "height": 1919,
+    "original_bytes": 4851435,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/83b7d55aa641-480.webp",
+        "bytes": 18932
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/83b7d55aa641-960.webp",
+        "bytes": 46702
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/83b7d55aa641-1600.webp",
+        "bytes": 94786
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/83b7d55aa641-2400.webp",
+        "bytes": 165634
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1kx3x66E8y.jpg": {
+    "width": 2560,
+    "height": 1439,
+    "original_bytes": 422160,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/0e3b8d8be33f-480.webp",
+        "bytes": 13110
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/0e3b8d8be33f-960.webp",
+        "bytes": 30818
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/0e3b8d8be33f-1600.webp",
+        "bytes": 56258
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/0e3b8d8be33f-2400.webp",
+        "bytes": 93632
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV19xe266EFw.jpg": {
+    "width": 2560,
+    "height": 1439,
+    "original_bytes": 425114,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/5930ec86a7fe-480.webp",
+        "bytes": 15372
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/5930ec86a7fe-960.webp",
+        "bytes": 36538
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/5930ec86a7fe-1600.webp",
+        "bytes": 66118
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/5930ec86a7fe-2400.webp",
+        "bytes": 107496
+      }
+    ]
+  },
+  "assets/picture/minifigures/header.jpg": {
+    "width": 2275,
+    "height": 1280,
+    "original_bytes": 1359876,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/632be675018d-480.webp",
+        "bytes": 32306
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/632be675018d-960.webp",
+        "bytes": 87538
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/632be675018d-1600.webp",
+        "bytes": 152148
+      },
+      {
+        "width": 2275,
+        "path": "assets/optimized/632be675018d-2275.webp",
+        "bytes": 217142
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_01.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 146691,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/b01e68ce3444-480.webp",
+        "bytes": 50962
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/b01e68ce3444-595.webp",
+        "bytes": 68002
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_02.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 158692,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/50e0d721d880-480.webp",
+        "bytes": 57316
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/50e0d721d880-595.webp",
+        "bytes": 73520
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_03.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 180566,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/f0687721a5b2-480.webp",
+        "bytes": 68620
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/f0687721a5b2-595.webp",
+        "bytes": 89682
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_04.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 198038,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/302828705fe8-480.webp",
+        "bytes": 80036
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/302828705fe8-595.webp",
+        "bytes": 105164
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_05.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 148833,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/5786303804cf-480.webp",
+        "bytes": 52736
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/5786303804cf-595.webp",
+        "bytes": 69562
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_06.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 187100,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/1508829cf711-480.webp",
+        "bytes": 71480
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/1508829cf711-595.webp",
+        "bytes": 93790
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_07.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 165518,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/ce616bb84337-480.webp",
+        "bytes": 62090
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/ce616bb84337-595.webp",
+        "bytes": 81090
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_08.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 174539,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/8e253afc46c0-480.webp",
+        "bytes": 65222
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/8e253afc46c0-595.webp",
+        "bytes": 86222
+      }
+    ]
+  },
+  "assets/picture/poster-previews/Poster-A4_01_09.jpg": {
+    "width": 595,
+    "height": 842,
+    "original_bytes": 213381,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/2fe32a475ba5-480.webp",
+        "bytes": 85406
+      },
+      {
+        "width": 595,
+        "path": "assets/optimized/2fe32a475ba5-595.webp",
+        "bytes": 115214
+      }
+    ]
+  },
+  "posters/2fc98e06f75e2bc4d9b4a3d71df4cb68.jpg": {
+    "width": 803,
+    "height": 968,
+    "original_bytes": 133711,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/43cac7dc8142-480.webp",
+        "bytes": 53966
+      },
+      {
+        "width": 803,
+        "path": "assets/optimized/43cac7dc8142-803.webp",
+        "bytes": 107076
+      }
+    ]
+  },
+  "posters/b06acd7ca226a06171f044855d9b3cfc.jpg": {
+    "width": 800,
+    "height": 600,
+    "original_bytes": 129749,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/c85b871e9a08-480.webp",
+        "bytes": 57666
+      },
+      {
+        "width": 800,
+        "path": "assets/optimized/c85b871e9a08-800.webp",
+        "bytes": 127574
+      }
+    ]
+  },
+  "posters/f6a3dbe5d31c2d992a8e0386ca6222f6.jpg": {
+    "width": 724,
+    "height": 1024,
+    "original_bytes": 155706,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/e87a2a8d246f-480.webp",
+        "bytes": 71602
+      },
+      {
+        "width": 724,
+        "path": "assets/optimized/e87a2a8d246f-724.webp",
+        "bytes": 131840
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1ywqABuEY4.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 614892,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/6f167428ec9e-480.webp",
+        "bytes": 26434
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/6f167428ec9e-960.webp",
+        "bytes": 61690
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/6f167428ec9e-1600.webp",
+        "bytes": 107478
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/6f167428ec9e-2400.webp",
+        "bytes": 165070
+      }
+    ]
+  },
+  "posters/0447a09e9a0cb618078d25db6e6a0d25.jpg": {
+    "width": 1200,
+    "height": 1691,
+    "original_bytes": 248020,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/18023dac7112-480.webp",
+        "bytes": 56346
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/18023dac7112-960.webp",
+        "bytes": 133998
+      },
+      {
+        "width": 1200,
+        "path": "assets/optimized/18023dac7112-1200.webp",
+        "bytes": 172536
+      }
+    ]
+  },
+  "posters/6362c15072c3cea40cf7c6b84916ed10.jpg": {
+    "width": 669,
+    "height": 746,
+    "original_bytes": 318080,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/452e95076124-480.webp",
+        "bytes": 87390
+      },
+      {
+        "width": 669,
+        "path": "assets/optimized/452e95076124-669.webp",
+        "bytes": 153680
+      }
+    ]
+  },
+  "posters/good-king-knights-header.png": {
+    "width": 2172,
+    "height": 724,
+    "original_bytes": 1841830,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/cd747805f38f-480.webp",
+        "bytes": 16160
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/cd747805f38f-960.webp",
+        "bytes": 51038
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/cd747805f38f-1600.webp",
+        "bytes": 112478
+      },
+      {
+        "width": 2172,
+        "path": "assets/optimized/cd747805f38f-2172.webp",
+        "bytes": 172158
+      }
+    ]
+  },
+  "assets/picture/gallery/classics/46493ca7a107fc5579fa16d6e919c130.jpg": {
+    "width": 4096,
+    "height": 3072,
+    "original_bytes": 3639795,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/16f95a05a450-480.webp",
+        "bytes": 24328
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/16f95a05a450-960.webp",
+        "bytes": 57042
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/16f95a05a450-1600.webp",
+        "bytes": 113066
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/16f95a05a450-2400.webp",
+        "bytes": 210454
+      }
+    ]
+  },
+  "assets/picture/gallery/classics/58b0e18ce073d2c26f7e1cdc7129f28f.jpg": {
+    "width": 4096,
+    "height": 2304,
+    "original_bytes": 3984002,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/88ee89f17cb1-480.webp",
+        "bytes": 31992
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/88ee89f17cb1-960.webp",
+        "bytes": 76770
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/88ee89f17cb1-1600.webp",
+        "bytes": 145840
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/88ee89f17cb1-2400.webp",
+        "bytes": 249076
+      }
+    ]
+  },
+  "assets/picture/gallery/classics/9439ed95021cf82adee6ee15a77819c1.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "original_bytes": 2506412,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/39ec4db53483-480.webp",
+        "bytes": 18566
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/39ec4db53483-960.webp",
+        "bytes": 40296
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/39ec4db53483-1600.webp",
+        "bytes": 76244
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/39ec4db53483-2400.webp",
+        "bytes": 134930
+      }
+    ]
+  },
+  "assets/picture/gallery/classics/98d6ecbec18f7d167e91551757392c14.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "original_bytes": 5752323,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/cbd44b8352a4-480.webp",
+        "bytes": 29050
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/cbd44b8352a4-960.webp",
+        "bytes": 71302
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/cbd44b8352a4-1600.webp",
+        "bytes": 189676
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/cbd44b8352a4-2400.webp",
+        "bytes": 449670
+      }
+    ]
+  },
+  "assets/picture/gallery/classics/a7125b7735ab17a7c7db50ffa0f8f43a.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "original_bytes": 3114398,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/b88e8f0d6890-480.webp",
+        "bytes": 19028
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/b88e8f0d6890-960.webp",
+        "bytes": 46090
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/b88e8f0d6890-1600.webp",
+        "bytes": 90994
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/b88e8f0d6890-2400.webp",
+        "bytes": 168824
+      }
+    ]
+  },
+  "assets/picture/gallery/photography/48e36a90ffb866fe215d8ce0700c5e13.jpg": {
+    "width": 2048,
+    "height": 1152,
+    "original_bytes": 1207478,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/3d9851bae3e1-480.webp",
+        "bytes": 5062
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/3d9851bae3e1-960.webp",
+        "bytes": 22656
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/3d9851bae3e1-1600.webp",
+        "bytes": 76366
+      },
+      {
+        "width": 2048,
+        "path": "assets/optimized/3d9851bae3e1-2048.webp",
+        "bytes": 129762
+      }
+    ]
+  },
+  "assets/picture/gallery/photography/7a75ba532580fbad9c40e83db9bd2a7d.jpg": {
+    "width": 4096,
+    "height": 3072,
+    "original_bytes": 3125908,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/cf44b3ba3b21-480.webp",
+        "bytes": 14542
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/cf44b3ba3b21-960.webp",
+        "bytes": 38132
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/cf44b3ba3b21-1600.webp",
+        "bytes": 83640
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/cf44b3ba3b21-2400.webp",
+        "bytes": 154342
+      }
+    ]
+  },
+  "assets/picture/gallery/photography/bd90ab3a94fc4be1d08eaa6b66bf19c0.jpg": {
+    "width": 4096,
+    "height": 2304,
+    "original_bytes": 2355178,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/72912183c57e-480.webp",
+        "bytes": 3408
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/72912183c57e-960.webp",
+        "bytes": 8290
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/72912183c57e-1600.webp",
+        "bytes": 19644
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/72912183c57e-2400.webp",
+        "bytes": 42932
+      }
+    ]
+  },
+  "assets/picture/gallery/photography/e73f795a74f7e0da7166c8d034d06d97.jpg": {
+    "width": 4096,
+    "height": 2304,
+    "original_bytes": 1441784,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/3a2f49c8a265-480.webp",
+        "bytes": 6148
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/3a2f49c8a265-960.webp",
+        "bytes": 13178
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/3a2f49c8a265-1600.webp",
+        "bytes": 25334
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/3a2f49c8a265-2400.webp",
+        "bytes": 46318
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1z94Y6bEn6.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 543687,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/3b9feff35b1d-480.webp",
+        "bytes": 25888
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/3b9feff35b1d-960.webp",
+        "bytes": 58300
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/3b9feff35b1d-1600.webp",
+        "bytes": 105034
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/3b9feff35b1d-2400.webp",
+        "bytes": 166406
+      }
+    ]
+  },
+  "assets/picture/video-covers/BV1bPbk6rEvB.jpg": {
+    "width": 2560,
+    "height": 1440,
+    "original_bytes": 485481,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/7414a3c34edb-480.webp",
+        "bytes": 15632
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/7414a3c34edb-960.webp",
+        "bytes": 35198
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/7414a3c34edb-1600.webp",
+        "bytes": 63770
+      },
+      {
+        "width": 2400,
+        "path": "assets/optimized/7414a3c34edb-2400.webp",
+        "bytes": 106562
+      }
+    ]
+  },
+  "assets/picture/work-headers/china.jpg": {
+    "width": 2153,
+    "height": 1210,
+    "original_bytes": 476697,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/optimized/bcb71a10e862-480.webp",
+        "bytes": 17476
+      },
+      {
+        "width": 960,
+        "path": "assets/optimized/bcb71a10e862-960.webp",
+        "bytes": 41640
+      },
+      {
+        "width": 1600,
+        "path": "assets/optimized/bcb71a10e862-1600.webp",
+        "bytes": 76548
+      },
+      {
+        "width": 2153,
+        "path": "assets/optimized/bcb71a10e862-2153.webp",
+        "bytes": 107892
+      }
+    ]
+  }
+}

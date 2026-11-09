@@ -428,7 +428,7 @@ video {
   min-height: 56vh;
   background-image:
     linear-gradient(90deg, #050505 5%, rgba(5, 5, 5, 0.58), #050505 96%),
-    url("../../posters/e93770c95236aa9a05359f2e2083f7ed.jpg");
+    url("../optimized/5c2c0ec1111e-690.webp");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -684,8 +684,8 @@ video {
 .knowledge-article-header h2 {
   max-width: 780px;
   margin: 0 0 16px;
-  font-size: clamp(2rem, 5vw, 4rem);
-  line-height: 1.16;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.45;
 }
 
 .knowledge-article-discussion {
@@ -1191,8 +1191,8 @@ input[type="file"] {
 
 .work-entry h3 {
   margin: 0 0 22px;
-  font-size: clamp(1.7rem, 3.5vw, 3rem);
-  line-height: 1.22;
+  font-size: clamp(1.3rem, 2.2vw, 2rem);
+  line-height: 1.4;
 }
 
 .work-entry-copy > p {
@@ -1476,3 +1476,82 @@ input[type="file"] {
     min-height: 0;
   }
 }
+
+/* Responsive derivatives retain the original crop and gradient on each page. */
+img { height: auto; }
+.page-hero {
+  --responsive-page-image: var(--page-bg-desktop-image);
+}
+@media (max-width: 760px) {
+  .page-hero { --responsive-page-image: var(--page-bg-mobile-image); }
+}
+.video-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: var(--text);
+  text-align: center;
+  padding: 24px;
+  cursor: pointer;
+}
+.video-placeholder:hover { background: #191919; }
+.video-placeholder:focus-visible { outline: 3px solid var(--gold); outline-offset: -3px; }
+.video-play-icon { color: var(--gold); font-size: 42px; }
+
+/* Biography: one paragraph paired with each photograph. */
+.biography-content { display: grid; gap: clamp(32px, 4vw, 56px); }
+.biography-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(32px, 5vw, 72px); }
+.biography-row .text-block { font-size: 1rem; line-height: 2; }
+.biography-row figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; }
+.biography-row .biography-identity { width: 240px; max-width: 100%; justify-self: center; }
+.biography-row img { display: block; width: 100%; height: auto; }
+/* Display-only tonal balance; source photographs remain unchanged. */
+.biography-reading img { filter: brightness(1.65) saturate(.92); }
+.biography-recording img { filter: brightness(.93) saturate(.92); }
+.biography-row .button-row { margin-top: 24px; }
+@media (max-width: 760px) {
+  .biography-row { grid-template-columns: 1fr; gap: 24px; }
+  .biography-row .biography-identity { width: 220px; }
+}
+
+/* Preserve the complete square artwork on the minifigure series page. */
+.minifigures-page .image-stack img { aspect-ratio: 1; object-fit: contain; }
+
+.work-entry + .work-entry { margin-top: 28px; }
+.video-description { margin: 18px 0 24px; color: var(--muted); line-height: 1.9; }
+.video-description summary { cursor: pointer; color: var(--gold); }
+.video-description summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.video-description-body { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 32rem; overflow-y: auto; padding: 16px 12px 0 0; }
+
+.work-entry-description { white-space: pre-line; overflow-wrap: anywhere; }
+.blog-submission-card { margin-top: 36px; padding: clamp(24px, 4vw, 40px); }
+.blog-submission-card h2 { margin: 0 0 24px; font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.6; }
+
+/* Gallery uses the shared page-hero height and top-aligned imagery. */
+.gallery-hero .hero-copy { max-width: none; }
+.classic-set-grid, .photography-grid { align-items: start; }
+.classic-set-grid .photo-theme-card img,
+.photography-grid .photo-theme-card img { aspect-ratio: auto; height: auto; object-fit: contain; }
+.poster-preview-grid, .poster-archive-grid { align-items: start; }
+.poster-preview-grid .poster-card img,
+.poster-archive-grid .poster-card img { aspect-ratio: auto; height: auto; object-fit: contain; }
+.photo-theme[id] { scroll-margin-top: calc(var(--nav-height) + 24px); }
+@media (max-width: 760px) {
+  .poster-preview-grid, .poster-archive-grid { grid-template-columns: 1fr; }
+}
+
+/* Let the works introduction use the full hero content width. */
+.hero-copy[data-i18n="worksIndexLead"] { max-width: none; }
+
+/* Real video artwork with a lightweight, accessible click-to-load player. */
+.video-placeholder { position: relative; overflow: hidden; isolation: isolate; }
+.video-placeholder .video-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: -2; }
+.video-placeholder::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, .18); z-index: -1; transition: background 180ms ease; }
+.video-placeholder:hover::after { background: rgba(0, 0, 0, .32); }
+.video-placeholder .video-play-icon { display: grid; place-items: center; width: 66px; height: 66px; padding-left: 4px; border-radius: 50%; background: rgba(0, 0, 0, .8); border: 1px solid rgba(255, 255, 255, .65); font-size: 28px; box-shadow: 0 4px 20px rgba(0, 0, 0, .3); }
+.video-placeholder [data-i18n="loadVideo"] { padding: 5px 12px; border-radius: 4px; background: rgba(0, 0, 0, .8); color: #fff; }
+
+/* Official video titles fit desktop cards without oversized typography. */
+.featured-video-grid .card-body h3 { margin: 0; font-size: clamp(.9rem, 1.15vw, 1.05rem); line-height: 1.6; font-weight: 600; overflow-wrap: anywhere; }
