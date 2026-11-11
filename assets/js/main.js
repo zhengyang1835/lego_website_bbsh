@@ -101,6 +101,8 @@ const translations = {
     shareTitle: "分享点什么？",
     shareLead: "留下你的搭建想法、投稿线索，或与其他同好聊聊。留言由 GitHub Discussions 提供支持。",
     discussionTitle: "同好留言席",
+    discussionFallback: "留言板未显示？加载需要连接 Giscus，可尝试切换网络或在浏览器中打开本页。",
+    discussionOpen: "前往 GitHub 讨论区",
     discussionIdentity: "登录 GitHub 后即可发布留言；你的 GitHub 用户名与头像会显示在留言旁。",
     carouselTitle: "我们的作品",
     carouselLead: "精品系列邀你来品鉴",
@@ -319,6 +321,8 @@ const translations = {
     shareTitle: "What would you like to share?",
     shareLead: "Share build ideas, story tips, or chat with fellow fans. Comments are powered by GitHub Discussions.",
     discussionTitle: "Community discussion",
+    discussionFallback: "Board not showing? It needs a connection to Giscus. Try another network or open this page in your browser.",
+    discussionOpen: "Open GitHub Discussions",
     discussionIdentity: "Sign in with GitHub to post. Your GitHub username and avatar will appear with your comment.",
     carouselTitle: "Our Work",
     carouselLead: "Discover our featured series.",
@@ -481,6 +485,81 @@ function applyLang(lang) {
   renderQuestions();
 }
 
+function bindGalleryNavigation() {
+  const dropdown = document.querySelector(".nav-dropdown");
+  if (!dropdown) return;
+  const nav = dropdown.closest(".nav");
+  const link = dropdown.querySelector(".gallery-trigger");
+  const menu = dropdown.querySelector(".sub-nav");
+  const mobile = window.matchMedia("(max-width: 920px)");
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = link.className;
+  toggle.dataset.i18n = link.dataset.i18n;
+  menu.id = "gallery-navigation";
+  toggle.setAttribute("aria-controls", menu.id);
+
+  const close = () => {
+    menu.classList.remove("is-open");
+    toggle.setAttribute("aria-expanded", "false");
+  };
+  const updateLayout = () => {
+    close();
+    if (mobile.matches) {
+      toggle.textContent = translations[getLang()][link.dataset.i18n];
+      link.replaceWith(toggle);
+      menu.dataset.galleryMenu = "";
+      // Keep the dropdown outside the horizontally scrolling/clipping strip.
+      nav.append(menu);
+    } else {
+      link.textContent = translations[getLang()][link.dataset.i18n];
+      toggle.replaceWith(link);
+      delete menu.dataset.galleryMenu;
+      dropdown.append(menu);
+    }
+  };
+  toggle.addEventListener("click", () => {
+    const open = !menu.classList.contains("is-open");
+    menu.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+  toggle.addEventListener("keydown", (event) => {
+    const enterMenu = event.key === "ArrowDown" ||
+      (event.key === "Tab" && !event.shiftKey && menu.classList.contains("is-open"));
+    if (!enterMenu) return;
+    event.preventDefault();
+    menu.classList.add("is-open");
+    toggle.setAttribute("aria-expanded", "true");
+    menu.querySelector("a").focus();
+  });
+  menu.addEventListener("keydown", (event) => {
+    if (!mobile.matches || event.key !== "Tab") return;
+    const links = menu.querySelectorAll("a");
+    if (event.shiftKey && event.target === links[0]) {
+      event.preventDefault();
+      toggle.focus();
+    } else if (!event.shiftKey && event.target === links[links.length - 1]) {
+      event.preventDefault();
+      close();
+      dropdown.nextElementSibling.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (!toggle.contains(event.target) && !menu.contains(event.target)) close();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.classList.contains("is-open")) {
+      close();
+      toggle.focus();
+    }
+  });
+  document.addEventListener("focusin", (event) => {
+    if (!toggle.contains(event.target) && !menu.contains(event.target)) close();
+  });
+  mobile.addEventListener("change", updateLayout);
+  updateLayout();
+}
+
 function bindLanguage() {
   const button = document.querySelector("[data-lang-toggle]");
   if (!button) return;
@@ -641,6 +720,7 @@ function bindVideoPlayers() {
 }
 
 function init() {
+  bindGalleryNavigation();
   bindVideoPlayers();
   bindLanguage();
   bindCarousel();

@@ -177,6 +177,26 @@ video {
   transform: translate(-50%, 0);
 }
 
+button.gallery-trigger {
+  border: 0;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.sub-nav[data-gallery-menu] {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sub-nav[data-gallery-menu].is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
 .sub-nav a {
   display: block;
   padding: 10px 12px;
@@ -499,6 +519,21 @@ video {
 .giscus,
 .giscus-frame {
   width: 100%;
+}
+
+.discussion-fallback {
+  display: none;
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.discussion-fallback a {
+  display: inline-block;
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .works-index {
@@ -1369,20 +1404,31 @@ input[type="file"] {
   }
 
   .nav {
+    position: relative;
     width: min(100% - 24px, 760px);
-    gap: 10px;
+    gap: 8px;
   }
 
   .brand {
-    font-size: 1rem;
+    min-width: 0;
+    flex-shrink: 0;
+    gap: 6px;
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+
+  .en .brand > [data-i18n="brand"] {
+    width: 4.5em;
   }
 
   .brand-mark {
-    width: 24px;
-    height: 24px;
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
   }
 
   .nav-links {
+    min-width: 0;
     justify-content: flex-start;
     overflow-x: auto;
     overflow-y: hidden;
@@ -1394,7 +1440,41 @@ input[type="file"] {
   }
 
   .lang-toggle {
-    width: 62px;
+    flex: 0 0 40px;
+    width: 40px;
+    min-width: 0;
+    padding: 8px 2px;
+    font-size: 0.75rem;
+  }
+
+  .discussion-fallback {
+    display: block;
+  }
+
+  .contact-hero h1 {
+    white-space: normal;
+  }
+
+  .nav :focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  .nav > .sub-nav[data-gallery-menu] {
+    top: 100%;
+    left: auto;
+    right: 0;
+    max-width: 100%;
+    transform: none;
+  }
+
+  .nav > .sub-nav[data-gallery-menu] a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
 
   .qa-panel,
@@ -1484,6 +1564,30 @@ img { height: auto; }
 }
 @media (max-width: 760px) {
   .page-hero { --responsive-page-image: var(--page-bg-mobile-image); }
+
+  /* Give these wide originals their own phone compositions; desktop stays intact. */
+  .biography-page-hero {
+    background-size: cover, auto max(125%, 56.25vw);
+    background-position: center, 50% 85%;
+    background-repeat: no-repeat;
+  }
+
+  .knowledge-page-hero {
+    background-size: cover, auto min(100vw, 420px);
+    background-position: center, 67% top;
+    background-repeat: no-repeat;
+  }
+
+  .store-page-hero {
+    background-size: cover, auto min(48vw, 240px);
+    background-position: center, right 24px;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 760px) and (orientation: landscape) {
+  .biography-page-hero {
+    background-position: center, 50% 25%;
+  }
 }
 .video-placeholder {
   display: flex;
