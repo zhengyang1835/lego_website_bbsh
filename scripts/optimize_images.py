@@ -66,7 +66,8 @@ for page in ROOT.glob('*.html'):
         return "var(--responsive-page-image, url('%s')); --page-bg-mobile-image: url('%s'); --page-bg-desktop-image: url('%s')" % (match.group(1), '../optimized/' + Path(small).name, '../optimized/' + Path(large).name)
     # Original URL stays as fallback; responsive CSS replaces only the image layer.
     content = re.sub(r"(?:var\(--responsive-page-image, )?url\('([^']+)'\)\)?(?:; --page-bg-mobile-image: url\('[^']+'\); --page-bg-desktop-image: url\('[^']+'\))?", background, content)
-    content = re.sub(r'assets/(css/styles.css|js/main.js)\?v=[^"\s]+', r'assets/\1?v=20261109-media', content)
+    content = re.sub(r'assets/css/styles.css\?v=[^"\s]+', 'assets/css/styles.css?v=20261111-i18n', content)
+    content = re.sub(r'assets/js/main.js\?v=[^"\s]+', 'assets/js/main.js?v=20261111-i18n', content)
     page.write_text(content)
 
 # Shared decorative background in CSS (preserve existing gradient and composition).

@@ -1555,3 +1555,10 @@ img { height: auto; }
 
 /* Official video titles fit desktop cards without oversized typography. */
 .featured-video-grid .card-body h3 { margin: 0; font-size: clamp(.9rem, 1.15vw, 1.05rem); line-height: 1.6; font-weight: 600; overflow-wrap: anywhere; }
+
+/* English names need to wrap where the shorter Chinese heading fits on one line. */
+body.en .hero-card h1,
+body.en .contact-hero h1 {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
